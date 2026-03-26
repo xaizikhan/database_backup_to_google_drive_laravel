@@ -56,7 +56,10 @@ Your controller uses some external packages that need to be installed:
 ```bash
 composer require google/apiclient:^2.0
 ```
-
+2. **HTTP Client** (for HTTP requests, usually built-in in Laravel >=7, otherwise install Guzzle):
+```bash
+composer require guzzlehttp/guzzle
+```
 ### 4. Configure `.env`
 
 Add the following variables:
