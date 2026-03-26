@@ -2,10 +2,10 @@
 
 This Laravel project provides a complete solution to:
 
-✅ Create a database backup (SQL dump)
-✅ Compress it into a ZIP file
-✅ Upload it automatically to Google Drive
-✅ Clean up local storage after upload
+✅ Create a database backup (SQL dump)  
+✅ Compress it into a ZIP file  
+✅ Upload it automatically to Google Drive  
+✅ Clean up local storage after upload  
 
 ---
 
