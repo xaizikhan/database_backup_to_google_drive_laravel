@@ -248,6 +248,4 @@ If you need help, feel free to contact.
 
 ## ⭐ Credits
 
-## ⭐ Credits
-
 Developed and maintained by Faizan Raza  Powered by Contriver Mate 🚀
