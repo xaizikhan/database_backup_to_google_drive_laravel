@@ -51,7 +51,7 @@ class DatabaseBackupController extends Controller
     private function _uploadDbToDrive($file_name)
     {
         $token = $this->_token();
-        $documentPath = storage_path('app\zip');
+        $documentPath = storage_path('app/zip');
         $filesInFolder = File::allFiles($documentPath);
         $file_uploaded = false;
         foreach ($filesInFolder as $k => $file) {
