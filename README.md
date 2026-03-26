@@ -60,6 +60,7 @@ composer require google/apiclient:^2.0
 ```bash
 composer require guzzlehttp/guzzle
 ```
+---
 ### 4. Configure `.env`
 
 Add the following variables:
