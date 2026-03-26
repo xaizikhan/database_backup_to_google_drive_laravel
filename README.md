@@ -152,7 +152,7 @@ storage/
 ```php
 use App\Http\Controllers\DatabaseBackupController;
 
-Route::get('/backup-db', [DatabaseBackupController::class, 'takeBackUp']);
+Route::get('/take-database-backup', [DatabaseBackupController::class, 'takeBackUp']);
 ```
 
 ---
@@ -160,7 +160,7 @@ Route::get('/backup-db', [DatabaseBackupController::class, 'takeBackUp']);
 ### Run in Browser
 
 ```
-http://your-domain.com/backup-db
+http://your-domain.com/take-database-backup
 ```
 
 ---
