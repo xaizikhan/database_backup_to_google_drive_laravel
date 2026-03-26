@@ -1,5 +1,7 @@
 # Laravel Database Backup to Google Drive 🚀
 
+Automate your Laravel database backups to Google Drive with cron jobs.
+
 This Laravel project provides a complete solution to:
 
 ✅ Create a database backup (SQL dump)  
@@ -11,7 +13,7 @@ This Laravel project provides a complete solution to:
 
 ## 📌 Features
 
-* Automatic MySQL database dump
+* Automatic database backup
 * ZIP compression for reduced file size
 * Google Drive API integration
 * Secure upload using OAuth2 refresh token
@@ -249,3 +251,6 @@ If you need help, feel free to contact.
 ## ⭐ Credits
 
 Developed and maintained by Faizan Raza  Powered by Contriver Mate 🚀
+
+## License
+This package is open-sourced software licensed under the MIT license.
