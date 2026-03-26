@@ -48,8 +48,16 @@ composer install
 ```
 
 ---
+### 3. Install Required Packages
+Your controller uses some external packages that need to be installed:
 
-### 3. Configure `.env`
+1. **Google API Client** (for Google Drive integration):
+
+```bash
+composer require google/apiclient:^2.0
+```
+
+### 4. Configure `.env`
 
 Add the following variables:
 
@@ -66,7 +74,7 @@ GOOGLE_DRIVE_REFRESH_TOKEN=your_refresh_token
 
 ---
 
-### 4. Configure `config/services.php`
+### 5. Configure `config/services.php`
 
 ```php
 'google' => [
